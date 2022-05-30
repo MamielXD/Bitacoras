@@ -9,7 +9,10 @@ background: red;
 }
 
 .logo {
-    width: 10px;
-    height: 10px;
+    width: 130px;
+    height: 130px;
 }
  
+img {
+    box-sizing: content-box;
+}
