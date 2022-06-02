@@ -47,4 +47,7 @@ nav li a {
     text-decoration: none;
  }
 
- 
+nav li {
+    float: left;
+}
+
