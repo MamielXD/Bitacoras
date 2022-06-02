@@ -9,12 +9,12 @@ background: red;
 }
 
 .logo {
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
 }
  
 .logo-img {
-    height: 5%;
-    width: 50%;
+    height: 100px;
+    width: 100px;
 }
 
