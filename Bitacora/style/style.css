@@ -19,5 +19,6 @@ background: red;
 }
 
 nav {
-    align-items: flex-end;
+    list-style-type: none;
+    text-align: center;
 }
