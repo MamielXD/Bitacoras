@@ -13,6 +13,8 @@ background: red;
     height: 130px;
 }
  
-logoimg {
-    box-sizing: content-box;
+.logo-img {
+    height: 50%;
+    width: 50%;
 }
+
