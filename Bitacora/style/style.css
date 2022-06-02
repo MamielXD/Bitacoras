@@ -21,4 +21,5 @@ background: red;
 nav {
     list-style-type: none;
     text-align: right;
+    background: blue;
 }
