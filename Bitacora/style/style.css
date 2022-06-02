@@ -28,5 +28,9 @@ nav {
 
 .wrapper {
     height: 200px;
-    width: 500px;
+    width: 50%;
+}
+
+nav li {
+    display: inline;
 }
