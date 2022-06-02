@@ -22,4 +22,9 @@ nav {
     list-style-type: none;
     text-align: right;
     background: blue;
+    
+}
+
+.wrapper {
+    height: 500px;
 }
