@@ -22,7 +22,7 @@ background: red;
 nav {
     list-style-type: none;
     text-align: right;
-    background: blue;
+    background: rgb(8, 133, 206);
     
 }
 
@@ -39,3 +39,10 @@ nav li {
     display: inline;
 }
 
+nav li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
