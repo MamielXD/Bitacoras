@@ -50,3 +50,8 @@ nav li {
     float: right;
 }
 
+header {
+    height: 50px;
+    width: 100%;
+    background: rgb(0, 201, 60);
+}
