@@ -4,56 +4,85 @@
      margin: 0;
  }
 
-html {
-background: red;
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(9, 202, 112);
+}
+
+footer {
+    background-color: rgb(19, 141, 211);
+    margin-top: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+
+ header {
+     display: flex;
+     min-height: 70px;
+     background: rgb(8, 133, 206);
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     border-radius: 10px;
 }
 
 .logo {
-    width: 55px;
-    height: 55px;
-    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    
 }
  
 .logo-img {
     height: 50px;
     width: 50px;
+    margin-right: 10px;
+}
+
+.name-empresa {
+    display: flex;
+    align-items: center;
+    user-select: none;
 }
 
 nav {
-    list-style-type: none;
-    text-align: right; 
-    width: 100%;
-    height: 50px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
 
-.wrapper {
-    height: 50px;
-    width: 100%;
-    background: rgb(8, 133, 206);
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
 }
 
-nav ul {
-    text-align: right;
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
 }
 
-nav li {
-    display: inline;
-}
 
-nav li a {
-    padding: 2px 7px 2px 7px;
-    color: #666;
-    background-color: #eeeeee;
-    border: 1px solid #ccc;
-    text-decoration: none;
- }
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
 
-nav li {
-    float: right;
-}
-
-header {
-    height: 100px;
-    width: 100%;
-    background: rgb(0, 201, 60);
+    nav {
+        padding: 10px 0px;
+    }
 }
