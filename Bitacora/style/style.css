@@ -21,14 +21,13 @@ background: red;
 
 nav {
     list-style-type: none;
-    text-align: right;
-    background: rgb(8, 133, 206);
-    
+    text-align: right;   
 }
 
 .wrapper {
     height: 50px;
     width: 100%;
+    background: rgb(8, 133, 206);
 }
 
 nav ul {
