@@ -122,8 +122,12 @@ footer p {
 
     .name-empresa {
         text-align: center;
+        align-items: center;
+        display: block;
     }
     .logo {
         text-align: center;
+        align-items: center;
+        display: block;
     }
 }
