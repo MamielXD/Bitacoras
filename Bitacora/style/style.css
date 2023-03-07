@@ -53,10 +53,11 @@ a {
     height: 50px;
     width: 50px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .name-empresa {
-    display: flex;
+    display: inline;
     align-items: center;
     user-select: none;
 }
@@ -118,16 +119,20 @@ footer p {
 
     nav {
         padding: 10px 0px;
+        display: block;
+    }
+
+    .logo {
+        display: inline;
+        align-items: center;
+        text-align: center;
     }
 
     .name-empresa {
-        text-align: center;
-        align-items: center;
-        display: block;
+        display: inline;
     }
-    .logo {
-        text-align: center;
-        align-items: center;
-        display: block;
+
+    .logo-img {
+        vertical-align: middle;  
     }
 }
