@@ -119,4 +119,11 @@ footer p {
     nav {
         padding: 10px 0px;
     }
+
+    .name-empresa {
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+    }
 }
