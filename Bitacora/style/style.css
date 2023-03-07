@@ -32,7 +32,7 @@ a {
  header {
      display: flex;
      min-height: 70px;
-     background: #0885ce;
+     background-color: rgb(3, 81, 250);
      justify-content: space-between;
      align-items: center;
      padding: 10px;
