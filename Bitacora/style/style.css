@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(9, 202, 112);
+    background-color: rgb(37, 184, 0);
 }
 
 footer {
