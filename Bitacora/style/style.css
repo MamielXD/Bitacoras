@@ -122,6 +122,10 @@ footer p {
     margin-left: 10px;
 }
 
+.xd {
+    margin-left: 0.3%;
+}
+
 @media (max-width:700px) {
     header {
         flex-direction: column;
