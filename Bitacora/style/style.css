@@ -64,6 +64,13 @@ a {
 
 }
 
+.copy {
+    align-items: center;
+    text-align: center;
+    display: block;
+    user-select: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
