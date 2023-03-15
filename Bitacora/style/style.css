@@ -12,11 +12,16 @@ body {
     background-color: rgb(2, 147, 250);
 }
 
+main {
+    align-items: center;
+    text-align: center;
+}
+
 footer {
     background-color: rgb(3, 81, 250);
     margin-top: auto;
     height: 70px;
-    display: flex;
+    display: grid;
     align-items: center;
     text-align: center;
     border-radius: 10px;
@@ -57,7 +62,7 @@ a {
 }
 
 .name-empresa {
-    font-weight: 1000;
+    font-weight: 900;
     display: inline;
     align-items: center;
     user-select: none;
@@ -124,6 +129,10 @@ footer p {
 
 .xd {
     margin-left: 0.3%;
+}
+
+.dumi {
+    font-weight: 1000;
 }
 
 @media (max-width:700px) {
