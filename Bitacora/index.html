@@ -7,37 +7,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUMI | Inicio</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="icon" href="./Img/ad.ico">
+    <link rel="icon" href="./img/DM.ico">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="./index.html"><img class="logo-img" src="./Img/ad.ico" alt="logo de a domicilio"><h2 class="name-empresa">DUMI</h2></a>
+    <header class="header-landing">
+        <div class="wrap-logo">
+            <img class="logo-header" src="./img/DUMI.png" alt="logo de DUMI">
         </div>
-        <nav>
-                <a class="nav-link" href="./index.html">Inicio</a>
-                <a class="nav-link" href="./nosotros.html">¿Quiénes somos?</a>
-                <a class="nav-link" href="./contacto.html">Contáctanos</a>
-        </nav>
     </header>
     <main>
-        <div class="xd">
-            <h1>
-                Novedades
-            </h1>
-            <p>Mantenimiento de nuestro sitio web</p>
+        <section class="section hero-section">
+            <div class="wrap-hero-section">
+                <h1>
+                    ¿Necesitas ayuda en casa?
+                </h1>
+                <p>Tenemos la solución, DUMI</p>
+                <div class="wrap-cta">
+                    <a href="https://www.figma.com/proto/2VreN11mrfPcIDSyfdMT42/ADMockup?type=design&node-id=553-122&t=daGSzKwjXUqZcmeH-1&scaling=scale-down&page-id=509%3A128&starting-point-node-id=509%3A129&mode=design" class="cta-a" target="_blank">¿Qué es DUMI?</a>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="section about-section">
+            <div class="wrap-about-section">
+                <h2>
+                    Tranqui, DUMI está aquí.
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cum tempora omnis ratione autem itaque architecto consequuntur ad reiciendis porro suscipit veritatis molestiae dolor, quaerat beatae, fugit sint sequi laborum possimus magnam quibusdam facilis nobis perferendis pariatur. Aperiam laudantium at unde nihil, odio cumque optio ea, blanditiis quod eius id quae. Laboriosam at incidunt atque. Quas eligendi deleniti suscipit, odit veniam temporibus rem. Doloremque quae officiis quos incidunt iure? Repellendus esse eveniet, dolorum placeat cupiditate tempora odit quas eum hic consectetur, aliquid quisquam. Alias maiores quibusdam vel. Laboriosam explicabo, officia rerum libero labore eos fugit aliquam ad molestiae. Rerum, debitis.?</p>
+            </div>
+        </section>
+        <section class="section service-section">
+            <div class="wrap-title-section">
+                <h2>
+                    En DUMI encontrarás
+                </h2>
+            </div>
+            <div class="wrap-service-section">
+                <img src="/img/electricista .jpg" alt="Foto Electricista generado por IA de Canva" class="service-img">
+                <img src="/img/plomero.jpg" alt="Foto Plomero generado por IA de Canva" class="service-img">
+                <img src="/img/mantenimniento.jpg" alt="Foto Mantenimiento de electrodomésticos generado por IA de Canva" class="service-img">
+            </div>
+            <div class="wrap-cta">
+                <a href="." class="cta-a">Descúbre DUMI</a>
+            </div>
+        </section>
+        <section class="section two-column-section">
+            <div class="wrap-title-section">
+                <h2>
+                    Conoce el equipo DUMI
+                </h2>
+            </div>
+            <div class="wrap-two-column">
+                <div class="wrap-img_two-column">
+                    <img src="/img/CEO.jpg" alt="CEO" class="team-img">
+                </div>
+                <div class="wrap-text-column">
+                    <h3>
+                        CEO
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corporis nulla dolor nam sapiente officia voluptate enim doloribus laborum iste aut officiis reprehenderit ut, esse, exercitationem necessitatibus blanditiis laboriosam. Sint?
+                        Non eveniet atque quasi quaerat nulla fuga eos, quis exercitationem aliquam magni deserunt debitis quam modi beatae odit aliquid, voluptatum voluptatem dicta obcaecati dolor aut tempore rem. Consequatur, blanditiis aspernatur.
+                    </p>
+                </div>
+                <div class="wrap-text-column">
+                    <h3>
+                        COO
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aperiam animi soluta tempore dolore eum unde laudantium aspernatur voluptatibus velit nam ea nisi rem quod, qui magni quasi voluptatem dolores!
+                        Dolore at saepe a repudiandae sint nihil quis, unde quod pariatur laboriosam tempore fugiat, exercitationem ut totam animi alias laborum sapiente odit officiis? Possimus laboriosam natus quis commodi, aspernatur iste.
+                    </p>
+                </div>
+                <div class="wrap-img_two-column">
+                    <img src="/img/COO.jpg" alt="COO" class="team-img">
+                </div>
+            </div>
+        </section>    
+        <section class="section form-section">
+            <div class="wrap-title-section">
+                 <h2>
+                    Formulario
+                 </h2>
+            
+            <div class="wrap-form-section">
+                <h3>
+                    Contacto
+                </h3>
+                <form action="procesar_formulario.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+        
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+        
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                    <input type="submit" value="Enviar" class="cta-a">
+            </div>  
+            <div class="wrap-img_form-section">
+                <img src="." alt="Form" class="form-img">
+            </div>
+        </section>
+    </main>
+    <footer class="footer-section">
+        <div class="wrap-footer-section">
+            <div class="wrap-social-logo">
+                <ul>
+                    <li><a href="https://wa.me/573005115228?text=¡Hola,%20DUMI!" target="_blank"><img src="/img/whatsapp-ico.png" alt="WhatsApp" class="social-logo"></a></li>
+                    <li><a href="https://facebook.com/danielfelipetupapa" target="_blank"><img src="/img/facebook-ico.png" alt="Facebook" class="social-logo"></a></li>
+                    <li><a href="https://instagram.com/danielfelipevargasespitia" target="_blank"><img src="/img/instagram-ico.png" alt="Instagram" class="social-logo"></a></li>
+                    <li><a href="https://twitter.com/danielfelipeio" target="_blank"><img src="/img/x-ico.ico" alt="X" class="social-logo"></a></li>
+                </ul>
+            </div>
         </div>
 
-    </main>
-    <footer>
-        <ul>
-            <li>xd</li>
-            <li>f</li>
-            <li>h</li>
-        </ul>
-        <p class="copy">&copy; 2023 by <b class="dumi">DUMI WEBSITES</b> | All Rights Reserved</p>
+        <div class="menu-footer-section">
+            <div class="wrap-menu-footer-section">
+                <ul>
+                    <li><a href="" class="nav_menu-footer-section">Inicio</a></li>
+                    <li><a href="" class="nav_menu-footer-section">Servicios</a></li>
+                    <li><a href="" class="nav_menu-footer-section">¿Quienes Somos?</a></li>
+                    <li><a href="" class="nav_menu-footer-section">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="menu-footer-section">
+            <div class="footer-creds">
+                <p>&copy; 2023 | <b class="dumi">DUMI </b></p>
+            </div>
+        </div>
+
     </footer>
 </body>
-
 </html>

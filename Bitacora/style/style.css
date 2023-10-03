@@ -1,161 +1,87 @@
- * {
-     box-sizing: border-box;
-     padding: 0;
-     margin: 0;
- }
-
-body {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: rgb(2, 147, 250);
+:root {
+    --main-c: #4b4dd4;
+    --border-r:.5rem;
 }
 
-main {
-    align-items: center;
-    text-align: center;
-}
+/**Estilo General**/
 
-footer {
-    background-color: rgb(3, 81, 250);
-    margin-top: auto;
-    height: 70px;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
+html * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
 }
 
 a {
-    color: rgb(0, 0, 0);
     text-decoration: none;
- }
-
- header {
-     display: flex;
-     min-height: 70px;
-     background-color: rgb(3, 81, 250);
-     justify-content: space-between;
-     align-items: center;
-     padding: 10px;
-     border-radius: 10px;
-     margin-left: 0.3%;
-     margin-right: 0.3%;
 }
 
-.logo {
+ul, li {
+    list-style: none;
+}
+
+.wrap-cta {
+    padding: 1.5rem 0;
+}
+
+.cta-a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+/**Header**/
+
+.header-landing {
+    display: flex;
+    justify-content: center;
+    background: #3B8FF1;
+    padding: 0.25rem;
+}
+
+.logo-header {
+    max-width: 150px;
+    height: 100%;
+    width: 100%;
+}
+
+/**Hero Section**/
+
+.hero-section {
+    height: 90vh;
+    background: url(/img/bg_banner.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
-    width: 200px;
-    height: 50px;
-    
-}
- 
-.logo-img {
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
-    vertical-align: middle;
 }
 
-.name-empresa {
-    font-weight: 900;
-    display: inline;
-    align-items: center;
-    user-select: none;
-
+.wrap-hero-section {
+    max-width: 600px;
+    color: #ffffff;
+    padding: 15%;
 }
 
-.copy {
-    align-items: center;
-    text-align: center;
-    display: block;
-    user-select: none;
-}
-
-nav {
+.menu-footer-section {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-}
-
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
-    user-select: none;
-}
-
-nav a:hover {
-    color: rgb(255, 255, 255);
-    background-color: black;
-    border-radius: 30px;
-    padding: 5px;
-}
-
-.bg_bt {
-    background-color: #74828A;
-}
-
-.cl_bt {
-    background-color: #0885ce;
-}
-
-
-.mbt {
-    text-align: center;
-}
-
-.btlk {
-    background-color: #fefdff;
-    color: rgb(38, 122, 196);
-    border-radius: 10px;
-    padding: 1%;
-}
-
-.btlk:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 1%;
-}
-
-footer p {
-    margin-left: 10px;
-}
-
-.xd {
-    margin-left: 0.3%;
-}
-
-.dumi {
-    font-weight: 1000;
-}
-
-@media (max-width:700px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        padding: 10px 0px;
-        display: block;
-    }
-
-    .logo {
-        display: inline;
-        align-items: center;
-        text-align: center;
-    }
-
-    .name-empresa {
-        display: inline;
-    }
-
-    .logo-img {
-        vertical-align: middle;  
-    }
+    justify-content: center;
+    background: #3B8FF1;
 }
