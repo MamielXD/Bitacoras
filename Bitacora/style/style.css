@@ -74,7 +74,7 @@ h3 {
 
 .hero-section {
     height: 90vh;
-    background: url(/img/bg_banner.jfif);
+    background: url(../img/bg_banner.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
